@@ -29,6 +29,29 @@ Tip: VirtualDocumentRoot makes vhosts available for all users
     	</DirectoryMatch>
 	</Virtualhost>
  
+Kohana tar.gz structure
+-----------------------
+
+It is possible to prepare several different configurations. All should have the same structure:
+
+`S_KOHANA_VER="3.2"`
+
+	3.2.tar.gz
+		/3.2
+			/application
+			/modules
+			/public_html
+			/system
+ 
+`S_KOHANA_VER="3.0.9"`
+	
+	3.0.9.tar.gz
+		/3.0.9
+			/application
+			/modules
+			/public_html
+			/system
+			
 Functionality
 =============
 
